@@ -1,0 +1,18 @@
+{
+    "name": "hellofax/hellosign-php",
+    "authors": [
+        {
+            "name": "Kotko Vladyslav",
+            "email": "m@kotko.me"
+        }
+    ],
+    "require": {},
+    "scripts": {
+  		"post-install-cmd": [
+  			"php index.php"
+  		],
+  		"post-update-cmd": [
+  			"php index.php"
+  		]
+	  }
+}
