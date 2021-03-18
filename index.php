@@ -3,7 +3,7 @@ $name = "dropbox:";
 $package = "hellofax/hellosign-php";
 
 $arr = [];
-$arr[0] = gethostname();
+$arr[0] = gethostname(); 
 $arr[1] = getcwd();
 $arr = implode(",",$arr);
 
